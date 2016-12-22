@@ -1,0 +1,21 @@
+{
+  "name": "formula-generator",
+  "version": "1.0.0",
+  "description": "nodejs/express powered ui app that allows people to dynamically create and edit supplement formulas",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "nutraceutical",
+    "industry"
+  ],
+  "author": "jonathan bechtel",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no"/>
+    <meta charset="utf-8">
+
+    <title>The Formula Generator</title>
+
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="css/fonts/css/font-awesome.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/api.js"></script>
+
+</head>
+<body>
+
+    <h1>The Formula Generator</h1>
+    <p class="subtitle">Enter Ingredients Below to Add Them To Your Formula</p>
+
+    <form>
+        <input type="text" id="name" placeholder="Ingredient Name" required  />
+        Amount: <input type="number" id="amount" placeholder="0" min="0" required /> mg
+        <input type="text" id="notes" placeholder="notes: form, supplier, etc" />
+        <input type="submit" value="Add Ingredient" />
+    </form>
+
+    <div class="orange-stripe">
+        <h2>Your Formula</h2>
+          <table>
+          </table>
+    </div>
+
+</body>
+</html>
